@@ -1,5 +1,6 @@
 import * as dotenv from 'dotenv';
 import express from 'express';
+import cors from 'cors';
 import jokeRouter from './routes/joke';
 
 dotenv.config();
@@ -8,6 +9,7 @@ const PORT: number = parseInt(process.env.PORT as string);
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 app.use('/api/joke', jokeRouter);
 
