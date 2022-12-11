@@ -11,7 +11,7 @@ Simple API to fetch random joke
 Here you can find some installation guides depending on your OS:
 [MySQL Installation Guide](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/)
 
-You can find the database use in this project in sqls/randomjokes.sql (includes 400 jokes examples for testing)
+You can find the database used in this project(and their updates) in sqls folder (includes 400 jokes examples for testing)
 
 ## Project installation guide
 Install dependencies
